@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <title>Příklad DOM</title>
+</head>
+<body>
+  <h1 id="nadpis">How are You Love?</h1>
+  <button onclick="zmenNadpis()">Click me</button>
+  
+  <script>
+    function zmenNadpis() {
+      const nadpis = document.getElementById("nadpis");
+      nadpis.textContent = "I'm learning :-)";
+    }
+  </script>
+</body>
+</html>
